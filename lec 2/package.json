@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/RazaMuhammad5758/Backend_Practice/issues"
   },
-  "homepage": "https://github.com/RazaMuhammad5758/Backend_Practice#readme"
+  "homepage": "https://github.com/RazaMuhammad5758/Backend_Practice#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
 }
