@@ -1,0 +1,24 @@
+{
+  "name": "backendlec2",
+  "version": "1.0.0",
+  "description": "a baasic app to deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazaMuhammad5758/Backend_Practice.git"
+  },
+  "keywords": [
+    "backend",
+    "lec2"
+  ],
+  "author": "Raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RazaMuhammad5758/Backend_Practice/issues"
+  },
+  "homepage": "https://github.com/RazaMuhammad5758/Backend_Practice#readme"
+}
