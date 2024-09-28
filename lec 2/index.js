@@ -13,7 +13,7 @@ app.get("/facebook", (req, res) => {
 })
 
 app.get("/youtube", (req,res)=>{
-    res.send("<h2>Welcome  youtube</h2>")
+    res.send("<h2>Welcome to youtube</h2>")
 })
 
 app.listen(process.env.PORT, () => {
