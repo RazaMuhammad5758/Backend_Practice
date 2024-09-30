@@ -7,7 +7,7 @@ app.get('/', (req, res)=>{
 });
 
 
-app.get('jokes', (req, res)=>{
+app.get('/jokes', (req, res)=>{
     const jokes = [
         {
             id: 1,
@@ -30,7 +30,8 @@ app.get('jokes', (req, res)=>{
             title: 'fifth joke',
             content: 'this is fifth joke'
         }
-    ]
+    ];
+    res.send(jokes);
 })
 
 const port = process.env.PORT || 3000;  // ya to port env se uthaega ya 3000. env tbhi lgaya h k production m jany k bd 3000 use nhi hoga
